@@ -47,7 +47,7 @@ You can find our API here: [Link](https://rapidapi.com/OmbreRapid/api/ombre-ai-f
  <details>
    <summary>Click here for list of brands</summary>
 
-    ```md
+    ```
     - Abercrombie & Fitch
     - Adidas
     - Armani Exchange
