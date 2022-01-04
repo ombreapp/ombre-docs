@@ -1,4 +1,4 @@
-# Ombre - AI Fashion Size Recommendation
+# Ombre - AI Fashion Size Recommender
 
 # Overview
 * [Introduction](#introduction)
@@ -10,10 +10,13 @@
 
 
 ## Introduction
-Our Garment Size Recommender is a machine learning system built based on the real-world dataset. If you're looking to purchase clothings online but unsure of your size, this recommender is for you.
+AI Fashion Size Recommender is a machine learning system built based on the real-world dataset. If you're looking to purchase clothings online but unsure of your size, this recommender is for you.
 
 
 ## API Usage
+
+### RapidAPI 
+You can find our API here: [Link](https://rapidapi.com/OmbreRapid/api/ombre-ai-fashion-size-recommendation/)
 
 ### Endpoint
 ``` 
@@ -36,7 +39,12 @@ Our Garment Size Recommender is a machine learning system built based on the rea
 
 * `brand`
    
-   <details>
+    - The brand of the garment.
+    - Note that the spelling and punctuations matter. 
+    - If no brand is supplied or invalid brand is supplied, the system will treat this field as an unknown.
+    - Therefore, the accuracy of the recommendation might decrease.
+    - Current supported brands can be seen in the dropdown below.
+ <details>
    <summary>Click here for list of brands</summary>
 
     ```md
@@ -76,12 +84,6 @@ Our Garment Size Recommender is a machine learning system built based on the rea
     - Zara
     ```
    </details>
-        
-    - The brand of the garment.
-    - Note that the spelling and punctuations matter. 
-    - If no brand is supplied or invalid brand is supplied, the system will treat this field as an unknown.
-    - Therefore, the accuracy of the recommendation might decrease.
-    - Current supported brands are:- 
         
 
 * `size_type`
@@ -134,5 +136,4 @@ A response example is as shown below.
     ]
 }
 ```
-## Limitations
-> Work in progress..
+
