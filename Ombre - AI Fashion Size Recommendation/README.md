@@ -1,4 +1,4 @@
-# Ombre's Garment Size Recommender
+# Ombre - AI Fashion Size Recommendation
 
 # Overview
 * [Introduction](#introduction)
